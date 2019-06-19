@@ -3,5 +3,5 @@
   tasks:
       - name: Create file
         file:
-            path: "/tmp/{{ name }}"
+            path: "/tmp/{{ file_name }}"
             state: touch
