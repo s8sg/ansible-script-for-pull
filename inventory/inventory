@@ -1,0 +1,7 @@
+test.server
+
+[local]
+127.0.0.1
+
+[production]
+10.40.192.84
