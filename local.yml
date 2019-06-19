@@ -1,0 +1,7 @@
+---
+- hosts: "{{ host }}"
+  tasks:
+      - name: Create file
+        file:
+            path: "/tmp/{{ name }}"
+            state: touch
